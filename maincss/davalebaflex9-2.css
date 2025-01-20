@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-mainDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 96px;
+    background-color: #53389E;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    width: 100%;
+    padding: 18px 32px;
+}
+
+.nav-logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.productsDiv {
+    display: flex;
+    gap: 4px;
+}
+
+.productsLink {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.login-signupDiv {
+    display: flex;
+    gap: 12px;
+
+}
+
+.loginButton {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 16px;
+    color: #414651;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signupButton {
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: #7F56D9;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 24px;
+    flex-direction: column;
+}
+
+
+
+.mainHeadDiv {
+    display: flex;
+    width: 100%;
+    background-color: #53389E;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+
+
+}
+
+.headingDiv {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 768px;
+    width: 100%;
+    gap: 24px;
+}
+
+.bank-superDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.superSimpleP {
+    font-size: 20px;
+    width: 100%;
+    color: #E9D7FE;
+}
+
+h1 {
+    font-size: 74px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 90px;
+}
+
+.transparentP {
+    font-size: 20px;
+    color: #E9D7FE;
+
+}
+
+.demo-signupDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.demoButton {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 22px;
+    color: #414651;
+    border-radius: 10px;
+    background: #FFF;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.signupSecondButton {
+    display: flex;
+    align-items: center;
+    padding: 16px 22px;
+    color: #414651;
+    border-radius: 10px;
+    background-color: #7F56D9;
+    color: #FFFFFF;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.mainheadWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+    max-width: 1216px;
+    padding: 0px 32px;
+
+}
+
+.cardsDiv {
+    width: 100%;
+    display: flex;
+    background-position: bottom;
+    background-image: url(../images/Cards.png);
+    background-repeat: no-repeat;
+    height: 456px;
+    background-size: auto;
+}
+
+.frameworksDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.frameworksWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 32px;
+}
+
+.joinP {
+    color: #535862;
+
+}
+.companyLogosDiv{
+    display: flex;
+    gap: 24px;
+}
+.everneedMainDiv{
+    display: flex;
+    padding: 96px 0px;
+    background-color: #F2EDFF;
+    width: 100%;
+    justify-content: center;
+}
+.everneedWrapper{
+    display: flex;
+    padding: 0px 32px;
+    max-width: 1280px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.onlyCardDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    gap: 20px;
+}
+.onlyCardEverNeedDiv{
+    font-size: 27px;
+    color: #181D27;
+}
+.spendP{
+    color: #535862;
+    font-size: 21px;
+}
+.onlyCardsDetailsDiv{
+    display: flex;
+    gap: 64px;
+}
+.teamInboxesSectionDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 364px;
+    width: 100%;
+    gap: 32px;
+}
+.teamInboxesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.shareH3{
+    color: #181D27;
+    font-size: 20px;
+}
+.WhetherP{
+    color: #535862;
+}
+.financeMainDiv{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+
+}
+.financeWrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 64px;
+}
+.featuresDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    width: 100%;
+    gap: 20px;
+    padding-left: 80px;
+}
+.featuresSection{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+.featuresSpan{
+    color: #6941C6;
+
+}
+.financeH2{
+    color: #181D27;
+    font-size: 36px;
+}
+.getP{
+    color: #535862;
+    font-size: 23px;
+}
+.shareDashboardDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.inboxesDiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    
+}
+.ShareInoxesFirstDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px 16px 24px;
+    max-width: 560px;
+    width: 100%;
+    gap: 20px;
+    border-left: 4px solid #9E77ED;
+}
+.shareInoxesDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0px 16px 24px;
+    max-width: 560px;
+    width: 100%;
+    gap: 20px;
+    border-left: 4px solid #F5F5F5;
+}
+
+.share-whetherDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.learnMoreDiv{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.learnMoreLink{
+    color: #6941C6;
+
+}
+.dashboardBackgroundDiv{
+    background-image: url(../images/Dashboard.png);
+    background-position: right;
+    background-position: top;
+    height: 600px;
+    max-width: 705px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+.pricingPlansMainDiv{
+    
+}
