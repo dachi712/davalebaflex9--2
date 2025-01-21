@@ -210,18 +210,21 @@ h1 {
     color: #535862;
 
 }
-.companyLogosDiv{
+
+.companyLogosDiv {
     display: flex;
     gap: 24px;
 }
-.everneedMainDiv{
+
+.everneedMainDiv {
     display: flex;
     padding: 96px 0px;
     background-color: #F2EDFF;
     width: 100%;
     justify-content: center;
 }
-.everneedWrapper{
+
+.everneedWrapper {
     display: flex;
     padding: 0px 32px;
     max-width: 1280px;
@@ -229,94 +232,112 @@ h1 {
     justify-content: space-between;
 
 }
-.onlyCardDiv{
+
+.onlyCardDiv {
     display: flex;
     flex-direction: column;
     max-width: 360px;
     width: 100%;
     gap: 20px;
 }
-.onlyCardEverNeedDiv{
+
+.onlyCardEverNeedDiv {
     font-size: 27px;
     color: #181D27;
 }
-.spendP{
+
+.spendP {
     color: #535862;
     font-size: 21px;
 }
-.onlyCardsDetailsDiv{
+
+.onlyCardsDetailsDiv {
     display: flex;
     gap: 64px;
 }
-.teamInboxesSectionDiv{
+
+.teamInboxesSectionDiv {
     display: flex;
     flex-direction: column;
     max-width: 364px;
     width: 100%;
     gap: 32px;
 }
-.teamInboxesDiv{
+
+.teamInboxesDiv {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.shareH3{
+
+.shareH3 {
     color: #181D27;
     font-size: 20px;
 }
-.WhetherP{
+
+.WhetherP {
     color: #535862;
 }
-.financeMainDiv{
+
+.financeMainDiv {
     display: flex;
     background-color: #FFFFFF;
     width: 100%;
     justify-content: center;
 
 }
-.financeWrapper{
+
+.financeWrapper {
     display: flex;
     width: 100%;
     flex-direction: column;
     gap: 64px;
+    max-width: 1280px;
+    padding: 0px 32px;
 }
-.featuresDiv{
+
+.featuresDiv {
     display: flex;
     flex-direction: column;
     max-width: 800px;
     width: 100%;
     gap: 20px;
-    padding-left: 80px;
 }
-.featuresSection{
+
+.featuresSection {
     display: flex;
     flex-direction: column;
     gap: 12px;
     width: 100%;
 }
-.featuresSpan{
+
+.featuresSpan {
     color: #6941C6;
 
 }
-.financeH2{
+
+.financeH2 {
     color: #181D27;
     font-size: 36px;
 }
-.getP{
+
+.getP {
     color: #535862;
     font-size: 23px;
 }
-.shareDashboardDiv{
+
+.shareDashboardDiv {
     display: flex;
     justify-content: space-between;
 }
-.inboxesDiv{
+
+.inboxesDiv {
     display: flex;
     flex-direction: column;
-    padding-left: 80px;
-    
+
 }
-.ShareInoxesFirstDiv{
+
+.ShareInoxesFirstDiv {
     display: flex;
     flex-direction: column;
     padding: 16px 0px 16px 24px;
@@ -325,7 +346,8 @@ h1 {
     gap: 20px;
     border-left: 4px solid #9E77ED;
 }
-.shareInoxesDiv{
+
+.shareInoxesDiv {
     display: flex;
     flex-direction: column;
     padding: 16px 0px 16px 24px;
@@ -335,30 +357,238 @@ h1 {
     border-left: 4px solid #F5F5F5;
 }
 
-.share-whetherDiv{
+.share-whetherDiv {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-.learnMoreDiv{
+
+.learnMoreDiv {
     display: flex;
     align-items: center;
     gap: 6px;
 }
-.learnMoreLink{
+
+.learnMoreLink {
     color: #6941C6;
 
 }
-.dashboardBackgroundDiv{
+
+.dashboardBackgroundDiv {
     background-image: url(../images/Dashboard.png);
     background-position: right;
     background-position: top;
     height: 600px;
     max-width: 705px;
-    background-size: cover;
     width: 100%;
-    display: flex;
+    background-size: cover;
+
 }
-.pricingPlansMainDiv{
-    
+
+.pricingPlansMainDiv {
+    display: flex;
+    width: 100%;
+    background-color: #F2EDFF;
+    padding: 96px 0px;
+    justify-content: center;
+
+}
+
+.pricingPlansWrapper {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    gap: 64px;
+    padding: 0px 32px;
+}
+
+.pricingUpradeDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 440px;
+    width: 100%;
+    gap: 20px;
+}
+
+.upgradeDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.pricingH2 {
+    font-size: 36px;
+    color: #181D27;
+    font-weight: 600;
+}
+
+.simpleUpgradeP {
+    font-size: 18px;
+    color: #535862;
+}
+
+.basic-businessPlanDiv {
+    display: flex;
+    max-width: 712px;
+    width: 100%;
+    gap: 32px;
+
+}
+
+.basicPlanMainDiv {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--radius-2xl, 16px);
+    border: 1px solid #E9EAEB;
+    max-width: 340px;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 12px 16px -4px var(--Colors-Effects-Shadows-shadow-lg_01, rgba(10, 13, 18, 0.08)), 0px 4px 6px -2px var(--Colors-Effects-Shadows-shadow-lg_02, rgba(10, 13, 18, 0.03)), 0px 2px 2px -1px var(--Colors-Effects-Shadows-shadow-lg_03, rgba(10, 13, 18, 0.04));
+}
+
+.basicPlanDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 32px 0px 32px;
+    max-width: 340px;
+    align-items: center;
+    width: 100%;
+}
+
+.basicplan-DolarDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.basicPlanSpan {
+    color: #6941C6;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.DolarH3 {
+    font-size: 48px;
+    color: #181D27;
+}
+
+.billedSpan {
+    color: #535862;
+
+}
+
+.pinkTickDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+
+}
+
+.accesDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.accesSpan {
+    color: #535862;
+}
+
+.getStartedDiv {
+    display: flex;
+    padding: 32px;
+    border-top: 1px solid #E9EAEB;
+    background: #FAFAFA;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    box-shadow: 0px 12px 16px -4px var(--Colors-Effects-Shadows-shadow-lg_01, rgba(10, 13, 18, 0.08)), 0px 4px 6px -2px var(--Colors-Effects-Shadows-shadow-lg_02, rgba(10, 13, 18, 0.03)), 0px 2px 2px -1px var(--Colors-Effects-Shadows-shadow-lg_03, rgba(10, 13, 18, 0.04));
+    align-items: center;
+}
+
+.getstartedButton {
+    padding: 12px 18px;
+    max-width: 276px;
+    width: 100%;
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.simplisityMainDiv {
+    display: flex;
+    width: 100%;
+    padding: 96px 0px;
+    background: #FFF;
+    justify-content: center;
+}
+
+.simplisityWrapper {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 32px;
+    border-radius: var(--radius-4xl, 24px);
+}
+
+.simplisityContentDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: #53389E;
+    max-width: 736px;
+    width: 100%;
+    padding: 64px;
+    background: #53389E;
+    border-top-left-radius: var(--radius-4xl, 24px);
+    border-bottom-left-radius: var(--radius-4xl, 24px);
+}
+.starsDiv{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    max-width: 116px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+.loveDiv{
+    display: flex;
+    max-width: 608px;
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+}
+.loveDiv div p{
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 44px;
+    font-weight: 500;
+}
+.reeneDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.reeneSpan{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 28px;
+}
+.productDesignerSpan{
+    color: #E9D7FE;
+
+}
+.circlesDiv{
+    display: flex;
+    justify-content: flex-start;
+}
+.girlImageDiv{
+    border-top-right-radius: var(--radius-4xl, 24px);
+    border-bottom-right-radius: var(--radius-4xl, 24px);
 }
