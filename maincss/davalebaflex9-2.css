@@ -37,7 +37,7 @@ header {
 
 }
 
-nav {
+.navlinks{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -214,6 +214,7 @@ h1 {
 .companyLogosDiv {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .everneedMainDiv {
@@ -269,6 +270,33 @@ h1 {
     flex-direction: column;
     gap: 8px;
 }
+.manageYourTeamDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.connectToolsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.deliverInstantDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.connectCostumersDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.ourPeopleDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
 .shareH3 {
     color: #181D27;
@@ -284,6 +312,12 @@ h1 {
     background-color: #FFFFFF;
     width: 100%;
     justify-content: center;
+    background-image: url(../images/Dashboard.png);
+    background-position: bottom right;
+    background-size: contain;
+    height: 600px;
+    background-repeat: no-repeat;
+
 
 }
 
@@ -296,12 +330,21 @@ h1 {
     padding: 0px 32px;
 }
 
+.featuresWrapper {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 32px;
+    max-width: 1280px;
+    width: 100%;
+}
+
 .featuresDiv {
     display: flex;
     flex-direction: column;
     max-width: 800px;
     width: 100%;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .featuresSection {
@@ -374,16 +417,7 @@ h1 {
 
 }
 
-.dashboardBackgroundDiv {
-    background-image: url(../images/Dashboard.png);
-    background-position: right;
-    background-position: top;
-    height: 600px;
-    max-width: 705px;
-    width: 100%;
-    background-size: cover;
 
-}
 
 .pricingPlansMainDiv {
     display: flex;
@@ -444,6 +478,7 @@ h1 {
     max-width: 340px;
     width: 100%;
     background: #FFF;
+    justify-content: space-between;
     box-shadow: 0px 12px 16px -4px var(--Colors-Effects-Shadows-shadow-lg_01, rgba(10, 13, 18, 0.08)), 0px 4px 6px -2px var(--Colors-Effects-Shadows-shadow-lg_02, rgba(10, 13, 18, 0.03)), 0px 2px 2px -1px var(--Colors-Effects-Shadows-shadow-lg_03, rgba(10, 13, 18, 0.04));
 }
 
@@ -548,7 +583,8 @@ h1 {
     border-top-left-radius: var(--radius-4xl, 24px);
     border-bottom-left-radius: var(--radius-4xl, 24px);
 }
-.starsDiv{
+
+.starsDiv {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -556,39 +592,286 @@ h1 {
     width: 100%;
     margin-bottom: 24px;
 }
-.loveDiv{
+
+.loveDiv {
     display: flex;
     max-width: 608px;
     width: 100%;
     flex-direction: column;
     gap: 32px;
 }
-.loveDiv div p{
+
+.loveDiv div p {
     font-size: 36px;
     color: #FFFFFF;
     line-height: 44px;
     font-weight: 500;
 }
-.reeneDiv{
+
+.reeneDiv {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
-.reeneSpan{
+
+.reeneSpan {
     font-size: 18px;
     color: #FFFFFF;
     font-weight: 600;
     line-height: 28px;
 }
-.productDesignerSpan{
+
+.productDesignerSpan {
     color: #E9D7FE;
 
 }
-.circlesDiv{
+
+.circlesDiv {
     display: flex;
     justify-content: flex-start;
 }
-.girlImageDiv{
+
+.girlImageDiv {
     border-top-right-radius: var(--radius-4xl, 24px);
     border-bottom-right-radius: var(--radius-4xl, 24px);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0px 48px 0px;
+    background: #FAFAFA;
+    justify-content: center;
+}
+
+.footerWrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.footerUnitedNavDiv {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 32px;
+    justify-content: space-between;
+
+}
+
+.footerUnitedDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 320px;
+    width: 100%;
+}
+
+.footerUnitedDiv p {
+    color: #535862;
+    font-size: 18px;
+}
+
+.footerNavLinksDiv {
+    max-width: 712px;
+    width: 100%;
+    display: flex;
+    gap: 32px;
+}
+.footerProductsWrapper{
+    display: flex;
+    gap: 32px;
+    max-width: 320px;
+    width: 100%;
+}
+.footerProductsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 144px;
+    width: 100%;
+}
+
+.productSpan {
+    color: #181D27;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.productNavLinksDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.productNavLinksDiv a {
+    color: #6941C6;
+    font-weight: 600;
+}
+
+.footerFormDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    width: 100%;
+    gap: 16px;
+}
+
+form {
+    display: flex;
+    gap: 16px;
+}
+
+.inputEmail {
+    padding: 10px 14px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #7F56D9;
+    background: #FFF;
+    box-shadow: 4px 4px 20.9px 0px rgba(127, 86, 217, 0.25);
+    max-width: 229px;
+    width: 100%;
+    color: #717680;
+}
+
+.inputSubmit {
+    padding: 10px 16px;
+    border-radius: var(--radius-md, 8px);
+    background: #7F56D9;
+    border: none;
+    color: #FFFFFF;
+    max-width: 115px;
+    width: 100%;
+}
+.lastFooterMainDiv{
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 32px;
+}
+.footerLastDiv{
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding-top: 32px;
+    border-top: 1px solid #E9EAEB;
+}
+.lastFooterWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.UnititedAiFooter span{
+    color: #717680;
+}
+.cookiesFooterDiv{
+    display: flex;
+    gap: 16px;
+
+}
+.cookiesFooterDiv a {
+    color: #717680;
+}
+.burgerMenu{
+    display: none;
+}
+.deliverInstantFirstDiv{
+    display: none;
+}
+.connectCostumersFirstDiv{
+    display: none;
+}
+/* tablet */
+@media screen and ( min-width:768px) and (max-width:1023px) {
+    .navlinks{
+        display: none;
+    }
+    .login-signupDiv{
+        display: none;
+    }
+    .burgerMenu{
+        display: flex;
+    }
+    .nav-logoContainer{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .frameworksWrapper{
+        align-items: center;
+    }
+    .companyLogosDiv{
+        align-items: center;
+        width: 100%;
+        max-width: none;
+        justify-content: space-between;
+    }
+    .onlyCardsDetailsDiv{
+        flex-wrap: wrap;
+        justify-content: right;
+        gap: 32px;
+        
+    }
+    .deliverInstantDiv{
+        order: 2;
+    }
+    .everneedWrapper{
+        gap: 64px;
+        
+    }
+    .deliverInstantDiv{
+        display: none;
+        
+    }
+    .deliverInstantFirstDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .connectCostumersDiv{
+        display: none;
+    }
+    .connectCostumersFirstDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .financeMainDiv{
+        background-image: url(../images/Modern\ screen\ mockup.png);
+    }
+    .ShareInoxesFirstDiv{
+        max-width: 320px;
+        width: 100%;
+    }
+    .shareInoxesDiv{
+        max-width: 320px;
+        width: 100%;
+    }
+
+    .pricingPlansWrapper{
+        flex-direction: column;
+    }
+    .basic-businessPlanDiv{
+        justify-content: space-between;
+        max-width: none;
+    }
+    .simplisityWrapper{
+        flex-direction: column;
+    }
+    .simplisityContentDiv{
+        max-width: none;
+        border-top-right-radius: 24px;
+        border-bottom-left-radius: 0px
+    }
+    .girlImageDiv{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 24px;
+    }
+    .footerUnitedNavDiv{
+        flex-direction: column;
+        gap: 48px;
+    }
+    .footerNavLinksDiv{
+        flex-direction: column-reverse;
+    }
 }
